@@ -1,0 +1,51 @@
+---
+title: "Version Control with RStudio and GitHub"
+output: html_notebook
+---
+This exercise id divided in two parts:
+
+1. [Getting set up with Git and RStudio](#1.)
+2. [Version control with RStudio and Git](#2.)
+
+The aim of this exercise is to get familiar with version control and learn how to use Git and RStudio together.
+Most of the times you will be the only person working on your own project. However, this does not mean that version control your files is not going to be useful.
+
+##1. Getting set up with Git and RStudio
+
+By now you should all have a GitHub account and a repository (let us know if you don't otherwise you will not be able to go trough the rest of this tutorial).
+In order to connect RStudio with GitHub we need to configure Git, which is the version control software that GitHub runs on.
+First let's make sure that we have actually installed Git.
+
+**Windows**
+* Go to the Start menu
+* In the Search or Run line type `cmd` and press enter
+
+**Mac**
+* Go to Applications -> Utilities -> Terminal
+
+Type `git version`. You should see a short message containing some version information (Let us know if you don't).
+
+####Configure Git
+After installing git, you need to tell it who you are. Open a terminal window or command prompt (see above) and type the following:
+
+`git config --global user.email "you@youremail.com"`
+
+`git config --global user.name "Your Name"`
+
+On succesful completion, you should see no output from these commands.
+You can also configure git to use your preferred editor for commit messages, e.g. on a **Mac**:
+
+`git config --global core.editor nano`
+
+or on **Windows**:
+
+`git config --global core.editor notepad`
+
+It's a good idea to follow this step since the default editor selected by git is quite difficult to use!
+
+
+##2. Version control with RStudio and Git
+
+
+
+
