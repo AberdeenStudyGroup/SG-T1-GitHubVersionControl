@@ -97,7 +97,7 @@ Two files are created in the otherwise empty project:
 
 
 
-Once your project is set up, you can start work on your analysis, perhaps by creating an R script that reads in your data and carries out some preliminary analysis. For the purposes of this tutorial, start by creating a simple script containing these few lines of R.
+Once your project is set up, you can start work on your code, perhaps by creating an R script that reads in your data and carries out some preliminary analysis. For the purposes of this tutorial, start by creating a simple script containing these few lines of R.
 
 First open a new R script as follows:
 
@@ -292,7 +292,7 @@ Now write a short description of your project, something like this.
 
 
 
-At the bottom of the page, you can now change the commit message and add a more detailed description of your changes if you like. For the purpose of this exercise the commit message "Create README.md" is explicative enough.
+At the bottom of the page, you can now change the commit message and add a more detailed description of your changes if you like. For the purpose of this exercise the commit message "Create README.md" is good enough.
 Click on **Commit new file**.
 
 Your repo should now look like this:
@@ -332,7 +332,7 @@ Type a branch name into the new branch text box. Select the blue **Create branch
 
 
 
-Now you have two branches, `master` and `AddPlot`. They look exactly the same, but not for long! Next we’ll add our changes to the new branch.
+Now you have two branches, `master` and `NewPlot`. They look exactly the same, but not for long! Next we’ll add our changes to the new branch.
 
 Go back to your project in RStudio. In the **Git** tab, if you hover the mouse pointer over the **master** drop menu you will see a tooltip that says **Switch branch**. However, if you click on **master** and open the drop menu you will notice that the only branch present is `master`.
 
@@ -369,7 +369,7 @@ boxplot(cars$speed)
 ```
 
 
-Save your edited R script, click on the **Staged** box like you did before and click on **Commit**. In the **Review changes** page, write a commit message and click on **Commit**. Before you close the wondow, click on **Push**.
+Save your edited R script, click on the **Staged** box like you did before and click on **Commit**. In the **Review changes** page, write a commit message and click on **Commit**. Before you close the window, click on **Push**.
 
 
 
